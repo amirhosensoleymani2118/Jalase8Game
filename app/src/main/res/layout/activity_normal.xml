@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_normal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/normal_game"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amirhosein.jalase8game.Normal"
+    android:weightSum="1">
+
+    <TextView
+        android:background="@mipmap/normal_text"
+        android:layout_width="366dp"
+        android:layout_height="107dp"
+        android:id="@+id/textView"
+        android:layout_weight="0.04" />
+    <EditText
+        android:maxLength="3"
+        android:id="@+id/normaltxt"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColorHint="#ececec"
+        android:textColor="#000"
+        android:hint="Guess Number Between 0-555"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/normalbtn"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#bc007a"
+        android:text="Sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
